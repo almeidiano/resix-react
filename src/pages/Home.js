@@ -5,10 +5,12 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import Card from '../components/Card.js';
+import Sidebar from '../components/Sidebar.js';
 
 function Home() {
   return (
     <div className='app'>
+      <Sidebar />
       <Nav />
       <div className="container">
         <main>

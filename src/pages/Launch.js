@@ -1,14 +1,12 @@
 import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-import CounterPage from '../pages/CounterPage.js';
+import Sidebar from '../components/Sidebar.js';
 
 function Launch() {
-
   const [message, setMessage] = useState('');
   const [isActive, setIsActive] = useState(false);
   const [error, setError] = useState('');
@@ -46,6 +44,7 @@ function Launch() {
   
   return (
     <div className='app'>
+      <Sidebar />
       <Nav />
       <div className="container">
       <main>
@@ -53,14 +52,16 @@ function Launch() {
           <FontAwesomeIcon icon={faRocket} />
           Lançar
         </div>
-        <div className="form-area">
-          <form onSubmit={doSomething}>
-            <input value={message} required onChange={handleMessage} name="text" placeholder="Digite o link de conexão..." /> 
-            <div className='buttonArea'>
-              <span className="errorMessage">{error}</span>
-              <button  className={isActive ? 'activated' : 'redButton'}>LANÇAR</button>
-            </div>
-          </form>
+        <div>
+          <div className="form-area">
+            <form onSubmit={doSomething}>
+              <input value={message} required onChange={handleMessage} name="text" placeholder="Digite o link de conexão..." /> 
+              <div className='buttonArea'>
+                <span className="errorMessage">{error}</span>
+                <button className={isActive ? 'activated' : 'redButton'}>LANÇAR</button>
+              </div>
+            </form>
+          </div>
         </div>
       </main> 
       </div>

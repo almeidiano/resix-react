@@ -1,0 +1,17 @@
+.errorPage button{
+    height: 35px;
+    color: #FFF;
+    background-color: #19719A;
+    border: none;
+    border-radius: 7px;
+  }
+  .errorPage button span{
+    padding-left: 5px;
+  }
+  .errorPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }

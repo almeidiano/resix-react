@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './assets/css/home.css';
+import './assets/css/launch.css';
+import './assets/css/counterPage.css';
+import './assets/css/errorPage.css';
+import './assets/css/nav&sidebar.css';
+import './assets/css/footer.css';
+import './assets/css/button.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
