@@ -1,5 +1,4 @@
 import NavLogo from '../components/navLogo.svg';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Button from '../components/Button.js';
 import {faCircleArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';

@@ -1,6 +1,7 @@
 {
   "name": "resix",
   "version": "0.1.0",
+  "homepage": "https://resix.samuelalmeidadev.com.br",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
