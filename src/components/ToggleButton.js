@@ -20,14 +20,11 @@ const ToggleButton = () => {
 
     useEffect(() => {
         if(theme === 'dark') {
-            console.log('dark');
             toggleRef.current.classList = 'wrg-toggle wrg-toggle--checked';
             document.documentElement.setAttribute("data-theme", "dark");
         }else if(theme === 'white') {
-            console.log('white');
             document.documentElement.setAttribute("data-theme", "white");
         }else{
-            console.log('white');
             document.documentElement.setAttribute("data-theme", "white");
         }
     }, [theme]);

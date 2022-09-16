@@ -29,34 +29,19 @@
     opacity: 87%;
   }
 
-  @media (max-height: 475px) {
-    .buttonArea .redButton{
-      height: 150px;
-      width: 150px;
-      font-size: 1.5rem;
-    }
-    .form-area{
-      height: 110vh;
+  @media (max-height: 500px) {
+    .buttonArea button{
+      height: 150px !important;
+      width: 150px !important;
+      font-size: 1.5rem !important;
     }
   }
 
-  @media (max-height: 425px) {
-    .form-area{
-      height: 115vh;
-    }
-  }
-
-  @media (max-height: 425px) {
-    .form-area{
-      height: 115vh;
-    }
-  }
-
-  @media (max-height: 400px) {
-    .buttonArea .redButton{
-      height: 100px;
-      width: 100px;
-      font-size: 1rem;
+  @media (max-height: 450px) {
+    .buttonArea button{
+      height: 125px !important;
+      width: 125px !important;
+      font-size: 1.25rem !important; 
     }
     .buttonArea{
       margin-top: 15px;
