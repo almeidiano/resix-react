@@ -19,7 +19,8 @@ function Home() {
             Home
           </div>
           <div className="card-area">
-            <Link to="/launch"><Card icon={faRocket} text='Lançar' /></Link>
+            <Link to="/SingleLaunch"><Card icon={faRocket} text='Lançamento único' /></Link>
+            <Link to="/MultiLaunch"><Card icon={faRocket} text='Lançamento múltiplo' /></Link>
           </div>
         </main> 
       </div>

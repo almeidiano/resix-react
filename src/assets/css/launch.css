@@ -28,22 +28,4 @@
     opacity: 1;
     opacity: 87%;
   }
-
-  @media (max-height: 500px) {
-    .buttonArea button{
-      height: 150px !important;
-      width: 150px !important;
-      font-size: 1.5rem !important;
-    }
-  }
-
-  @media (max-height: 450px) {
-    .buttonArea button{
-      height: 125px !important;
-      width: 125px !important;
-      font-size: 1.25rem !important; 
-    }
-    .buttonArea{
-      margin-top: 15px;
-    }
-  }
+  

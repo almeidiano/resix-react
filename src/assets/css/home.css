@@ -48,8 +48,7 @@ body {
     text-align: center;
   }
   main .section svg{
-    height: 22px;
-    padding-right: 4px;
+    padding-right: 5px;
   }
   .card-area{
     display: flex;
@@ -65,6 +64,8 @@ body {
     flex-direction: column;
     justify-content: center;
     transition: .2s ease;
+    padding: 5px;
+    margin: 0px 10px;
   }
   .card:hover{
     background-color: #D9D9D9;
@@ -79,8 +80,13 @@ body {
     height: 43px;
   }
   .card-text{
-    font-size: 18px;
     font-weight: bold;
+  }
+  @media (max-width: 590px) {
+    .launchBtns{
+      width: 90%;
+      margin: auto;
+    }
   }
 
   

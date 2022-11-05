@@ -1,4 +1,3 @@
-// import React from 'react'
 import SamLogo from './SamLogo.svg';
 
 export const Footer = () => {
@@ -7,7 +6,7 @@ export const Footer = () => {
         <div className='container footer'>
           <span>Developed by <a target="_blank" href="https://samuelalmeidadev.com.br/portfolio-tecnico"><img src={SamLogo} alt="Samuel Logo" /></a></span>
         </div>
-        <span class='version'>v1.0</span>
+        <span class='version'>v1.1</span>
     </footer>
   )
 }

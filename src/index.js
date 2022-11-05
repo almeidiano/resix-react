@@ -7,14 +7,15 @@ import './assets/css/errorPage.css';
 import './assets/css/nav&sidebar.css';
 import './assets/css/footer.css';
 import './assets/css/button.css';
+import './assets/css/switchButton.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode> 
 );
 
 // If you want to start measuring performance in your app, pass a function

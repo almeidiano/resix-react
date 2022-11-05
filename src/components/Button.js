@@ -1,9 +1,7 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import React from 'react';
 
-const Button = ({icon, text}) => {
-    return (
-        <button className='default-button' type='submit'><FontAwesomeIcon icon={icon} /><span>{text}</span></button>
-    )
-}
+const Button = React.forwardRef((props, ref) => {
+    return <button ref={ref} onClick={props.onClick} className={props.disabled ? 'default-button disabled' : 'default-button'}>{props.text}</button>
+});
 
 export default Button

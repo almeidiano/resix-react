@@ -17,7 +17,8 @@ const Sidebar = () => {
                 <div className="sidebar-nav">
                     <ul>
                         <li><Link to="/"><FontAwesomeIcon icon={faHome} />Inicio</Link></li>
-                        <li><Link to="/launch"><FontAwesomeIcon icon={faRocket} />Lançar</Link></li>
+                        <li><Link to="/SingleLaunch"><FontAwesomeIcon icon={faRocket} />Lançamento único</Link></li>
+                        <li><Link to="/MultiLaunch"><FontAwesomeIcon icon={faRocket} />Lançamento múltiplo</Link></li>
                         <li><Link to="#"><ToggleButton /></Link></li>
                     </ul>
                 </div>
