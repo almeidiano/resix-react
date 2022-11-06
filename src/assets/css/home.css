@@ -82,7 +82,7 @@ body {
     font-weight: bold;
   }
   .launchBtns{
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
   }
   @media (max-width: 590px) {
     .launchBtns{
