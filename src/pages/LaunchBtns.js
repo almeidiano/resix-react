@@ -1,6 +1,7 @@
 import Nav from '../components/Nav.js';
 import Sidebar from '../components/Sidebar.js';
 import ToggleButtonLaunch from '../components/ToggleButtonLaunch.js';
+import Footer from '../components/Footer.js';
 
 function LaunchBtns() {
 
@@ -29,6 +30,7 @@ function LaunchBtns() {
           <Btns />
         </main>
       </div>
+      <Footer />
     </div>
   )
 }

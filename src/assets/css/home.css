@@ -23,7 +23,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #1D84B5;
     color: #E8F1F2;
-    overflow: hidden;
   }
   
   code {
@@ -81,6 +80,9 @@ body {
   }
   .card-text{
     font-weight: bold;
+  }
+  .launchBtns{
+    margin-bottom: 100px;
   }
   @media (max-width: 590px) {
     .launchBtns{
